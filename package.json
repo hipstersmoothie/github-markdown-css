@@ -1,6 +1,6 @@
 {
   "name": "storybook-addon-notes-github-markdown-css",
-  "version": "2.10.1",
+  "version": "2.10.2",
   "description": "Make your notes addon look like github markdown",
   "license": "MIT",
   "repository": "hipstersmoothie/github-markdown-css",
@@ -34,7 +34,7 @@
     "notes"
   ],
   "devDependencies": {
-    "auto-release-cli": "^0.24.0",
+    "auto-release-cli": "^0.23.1",
     "generate-github-markdown-css": "^2.1.0"
   },
   "dependencies": {
