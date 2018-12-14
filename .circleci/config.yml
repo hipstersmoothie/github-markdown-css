@@ -38,6 +38,7 @@ jobs:
     steps:
       - attach_workspace:
           at: ~/storybook-addon-notes-github-markdown-css
+      - run: mkdir ~/.ssh/ && echo -e "Host github.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
       - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
       - run:
           name: Release
