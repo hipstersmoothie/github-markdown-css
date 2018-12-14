@@ -673,6 +673,12 @@
   color: #005cc5;
 }
 
+.addon-notes-container .pl-token.active,
+.addon-notes-container .pl-token:hover {
+  background: #ffea7f;
+  cursor: pointer;
+}
+
 .addon-notes-container kbd {
   background-color: #fafbfc;
   border: 1px solid #d1d5da;
