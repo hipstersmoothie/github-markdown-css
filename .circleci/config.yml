@@ -38,6 +38,7 @@ jobs:
     steps:
       - attach_workspace:
           at: ~/storybook-addon-notes-github-markdown-css
+      - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
       - run:
           name: Release
           command: yarn release
